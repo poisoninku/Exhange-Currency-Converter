@@ -1,0 +1,8 @@
+Start
+    Get the base currency, target currency, and amount from the request.
+    Construct the API URL using the base currency.
+    Fetch data from the Exchange Rate API.
+    Handle errors if the API call fails or the target currency is invalid.
+    Perform conversion: multiply amount by the conversion rate.
+    Return the converted amount as JSON response.
+End
